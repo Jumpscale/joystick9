@@ -46,7 +46,7 @@ except ImportError:
 
 setup(
     name='JumpScale9Prefab',
-    version='9.4.0-rc4',
+    version='9.4.0',
     description='Automation framework for cloud workloads remote sal, sal= system abstraction layer',
     long_description=long_description,
     url='https://github.com/Jumpscaler/prefab9',
@@ -55,7 +55,7 @@ setup(
     license='Apache',
     packages=find_packages(),
     install_requires=[
-        'JumpScale9>=9.4.0-rc4',
+        'JumpScale9>=9.4.0',
         'paramiko>=2.2.3',  # for parallel-ssh
         'asyncssh>=1.9.0',
         'pymongo>=3.4.0',
